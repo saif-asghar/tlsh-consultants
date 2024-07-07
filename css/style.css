@@ -688,6 +688,38 @@ a:focus {
   height: 120px;
 }
 
+.contact_section select {
+  width: 100%;
+  border: none;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  background-color: transparent;
+  outline: none;
+  color: #000000;
+  border: 1px solid #a5a5a5;
+}
+
+.contact_section select::-webkit-input-placeholder {
+  color: #1c1b1b;
+}
+
+.contact_section select:-ms-input-placeholder {
+  color: #1c1b1b;
+}
+
+.contact_section select::-ms-input-placeholder {
+  color: #1c1b1b;
+}
+
+.contact_section select::placeholder {
+  color: #1c1b1b;
+}
+
+.contact_section select.message-box {
+  height: 120px;
+}
+
 .contact_section button {
   font-family: "Poppins", sans-serif;
   display: inline-block;
