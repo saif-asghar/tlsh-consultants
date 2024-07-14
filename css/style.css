@@ -403,6 +403,7 @@ a:focus {
 }
 
 .service_section .box .img-box {
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -413,13 +414,13 @@ a:focus {
   -ms-flex-align: center;
   align-items: center;
   height: 125px;
-  border-radius: 15px;
+  border-radius: 8px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .service_section .box .img-box img {
-  width: 75px;
+  width: 100%;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
