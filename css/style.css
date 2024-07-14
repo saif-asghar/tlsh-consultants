@@ -414,6 +414,54 @@ a:focus {
   font-size: 12px;
 }
 
+/* .custom-gallery-container {
+  display: flex;
+  justify-content: center;
+} */
+
+/* .gallery-img {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-height: 600px;
+} */
+.custom-gallery-container {
+  max-width: 100%;
+  /* Ensure container doesn't exceed the width of the carousel item */
+  max-height: 600px;
+  /* Set maximum height */
+  overflow: hidden;
+  /* Hide any overflow beyond the container */
+  position: relative;
+  /* Establish positioning context for absolute positioning */
+}
+
+.gallery-img {
+  width: auto;
+  /* Allow image to adjust width dynamically */
+  height: auto;
+  /* Allow image to adjust height dynamically */
+  max-width: 100%;
+  /* Ensure image doesn't exceed container width */
+  max-height: 100%;
+  /* Ensure image doesn't exceed container height */
+  display: block;
+  /* Remove any default inline spacing */
+  margin: auto;
+  /* Center the image horizontally */
+  /* position: absolute; */
+  /* Position the image absolutely within its container */
+  /* top: 0; */
+  /* bottom: 0; */
+  /* Center vertically */
+  /* left: 0; */
+  /* right: 0; */
+  /* Center horizontally */
+  object-fit: cover;
+  object-position: center;
+  /* Ensure the image covers the container */
+}
+
 .service_section .box .img-box {
   overflow: hidden;
   display: -webkit-box;
