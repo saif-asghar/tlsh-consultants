@@ -402,6 +402,18 @@ a:focus {
   transition: all 0.3s;
 }
 
+.hero_area .smc-text {
+  font-size: 12px;
+}
+
+.about_section .smc-text {
+  font-size: 10px;
+}
+
+.footer_container .smc-text {
+  font-size: 12px;
+}
+
 .service_section .box .img-box {
   overflow: hidden;
   display: -webkit-box;
